@@ -1,0 +1,209 @@
+/* Format
+Author: 
+Reason:
+Last Modified date: 19-02-2019
+Reason for Modifications
+*/
+div#section-1 {
+  background-image: url("assets/Rectangle_1548@3x.svg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#a9ffa9), to(#11ffbd));
+  background-image: linear-gradient(180deg, #a9ffa9 0%, #11ffbd 100%);
+  margin: 0px;
+  padding: 0px;
+}
+
+#top-left-pattern {
+  position: relative;
+  height: 5em;
+  top: 1em;
+  left: 1em;
+}
+
+#top-left-rectangle {
+  height: 5em;
+  position: relative;
+  top: 2em;
+}
+
+#top-right-rectangle {
+  position: relative;
+  top: 1em;
+  float: right;
+  width: 65px;
+  height: 65px;
+  background-color: #fff;
+  opacity: 0.3;
+}
+
+.writtentext {
+  position: relative;
+  top: 0.5em;
+  left: 4em;
+  font-family: Muli;
+  color: #fff;
+}
+
+#center-pattern {
+  position: relative;
+  width: 30em;
+  height: 17em;
+  top: 4em;
+}
+
+#top-right-pattern {
+  position: relative;
+  float: right;
+  top: 1em;
+  height: 6em;
+}
+
+#bottom-left-rectangle {
+  position: relative;
+  float: left;
+  width: 70px;
+  height: 70px;
+}
+
+.form-control {
+  position: relative;
+  top: 3em;
+}
+
+.fa {
+  position: relative;
+  top: 3em;
+  right: 1.5em;
+}
+
+#speed10 {
+  font-size: 55px;
+  font-weight: 700;
+  letter-spacing: 6.48px;
+  line-height: 125px;
+  color: #fff;
+}
+
+#interactive {
+  font-size: 21px;
+  font-weight: 280;
+  letter-spacing: 2.5px;
+  line-height: 50px;
+  color: #fff;
+}
+
+#collaboration {
+  font-size: 15px;
+  font-weight: 100;
+  margin-top: 3.5em;
+  letter-spacing: 2.52px;
+  color: #fff;
+}
+
+#companies {
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 4.64px;
+  color: #fff;
+}
+
+p.line {
+  margin-top: -0.3em;
+  width: 3em;
+  height: 0.09em;
+  background-color: #000;
+}
+
+div#section-2 {
+  position: relative;
+  top: 3em;
+  font-family: Muli;
+  width: 80%;
+  margin: 0 auto;
+}
+
+div#section-2 a.btn {
+  margin-right: 2em;
+  margin-bottom: 1em;
+  border-style: solid;
+  border-color: #808080;
+  border-width: 1px;
+  border-radius: 10px;
+}
+
+div#section-2 ul {
+  padding-left: 0em;
+  list-style-type: none;
+}
+
+div#section-2 ul .filtercoarse li {
+  display: inline;
+  text-decoration: none;
+}
+
+div#section-3 {
+  font-family: Montserrat;
+}
+
+div#section-3 .card {
+  width: 22em;
+  height: 26em;
+  margin: 0 auto;
+}
+
+div#section-3 a.btn {
+  position: relative;
+  top: -1em;
+  right: -3.5em;
+  float: right;
+  width: 120px;
+  height: 30px;
+  font-size: 12px;
+  border-style: solid;
+  border-color: #808080;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+div#section-3 .cardFooter {
+  position: relative;
+  top: 6em;
+}
+
+div#section-3 .price {
+  position: relative;
+  top: 2em;
+}
+
+div#section-3 .checked {
+  position: relative;
+  left: 0.1em;
+  top: -0.11em;
+  color: #FFFF00;
+}
+
+div#section-3 .fa {
+  font-size: 1em;
+}
+
+div#section-3 .verticalLine {
+  border-left: 2px solid #20fc8f;
+  height: 60px;
+  float: right;
+  position: relative;
+  right: -1.3em;
+  top: -0.5em;
+}
+
+div#section-3 .duration {
+  position: relative;
+  top: 4em;
+  right: -3em;
+  float: right;
+}
+
+div#section-3 .communicationLanguage {
+  float: right;
+  position: relative;
+  top: -2.5em;
+}
+/*# sourceMappingURL=Ashwin.css.map */

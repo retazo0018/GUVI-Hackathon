@@ -1,0 +1,195 @@
+/* Format
+Author: 
+Reason:
+Last Modified date: 19-02-2019
+Reason for Modifications
+*/
+
+$colors: (
+    white: #fff,
+    black: #000,
+    gray: #808080,
+    green:#20fc8f,
+   yellow: #FFFF00
+);
+@function color($color-name) {
+    @return map-get($colors, $color-name)
+}
+div#section-1{
+    background-image: url("assets/Rectangle_1548@3x.svg");
+    background-image: linear-gradient(180deg, #a9ffa9 0%, #11ffbd 100%);
+    margin:0px;
+    padding:0px;
+}
+#top-left-pattern{
+    position: relative;
+    height:5em;
+    top:1em;
+    left:1em;
+}
+#top-left-rectangle{
+    height:5em;
+    position: relative;
+    top: 2em;
+}
+
+#top-right-rectangle{
+    position: relative;
+    top:1em;
+    float:right;
+    width: 65px;
+    height: 65px;
+    background-color: #fff;
+    opacity: 0.3;
+}
+.writtentext{
+    position: relative;
+    top:0.5em;
+    left:4em;
+    font-family: Muli;
+    color:#fff;
+}
+#center-pattern{
+    position: relative;
+    width:6%;
+    max-width: 180px;
+    height:17em;
+    top:4em;
+
+   
+}
+#top-right-pattern{
+    position: relative;
+    float:right;
+    top:1.3em;
+    height:6em;
+}
+#bottom-left-rectangle{
+    position: relative;
+    float: left;
+    width:70px;
+    height:70px;
+}
+.form-control{
+    position: relative;
+    top:3em;
+}
+.fa{
+    position: relative;
+    top:3em;
+    right:1.5em;
+}
+#speed10{
+    font-size: 55px;
+    font-weight: 700;
+    letter-spacing: 6.48px;
+    line-height: 125px;
+    color:color(white);
+}
+#interactive{
+    font-size: 21px;
+    font-weight: 280;
+    letter-spacing: 2.5px;   
+    line-height: 50px;
+    color: color(white);
+}
+#collaboration{
+    font-size: 15px;
+    font-weight: 100;
+    margin-top:3.5em;
+    letter-spacing: 2.52px;
+    color: color(white);
+}
+#companies{
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 4.64px;
+    color: color(white);
+}
+p.line{
+    margin-top:-0.3em;
+    width:3em;
+    height:0.09em;
+    background-color: #000;
+}
+
+div#section-2{
+    position: relative;
+    top:3em;
+    font-family: Muli;
+    width:80%;
+    margin:0 auto;  
+    a.btn{
+        margin-right:2em;
+        margin-bottom:1em;
+        border-style: solid;
+        border-color:color(gray);
+        border-width:1px;
+        border-radius: 10px;
+    }
+    ul{
+        padding-left:0em;
+        list-style-type: none;
+        .filtercoarse li{
+        display: inline;
+        text-decoration: none;
+    }
+    }
+}
+div#section-3{
+    font-family: Montserrat;
+    .card{
+        width:22em;
+        height:26em;
+        margin:0 auto;
+    }
+    a.btn{
+        position: relative;
+        top:-1em;
+        right:-3.5em;
+        float:right;
+        width:120px;
+        height:30px;
+        font-size: 12px;
+        border-style: solid;
+        border-color:color(gray);
+        border-width:1px;
+        border-radius: 5px;
+    }
+    .cardFooter{
+        position: relative;
+        top:6em;
+    }
+    .price{
+        position: relative;
+        top:2em;
+    }
+.checked{
+    position: relative;
+    left:0.1em;
+    top:-0.11em;
+    color:color(yellow);
+}
+.fa{
+    font-size: 1em;
+}
+.verticalLine{
+    border-left: 2px solid #20fc8f;;
+    height: 60px;
+    float:right;
+    position: relative;
+    right:-1.3em;
+    top:-0.5em;
+}
+.duration{
+    position: relative;
+    top:4em;
+    right:-3em;
+    float:right;
+}
+.communicationLanguage{
+    float:right;
+    position:relative;
+    top:-2.5em;
+}
+}
